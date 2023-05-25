@@ -22,7 +22,7 @@
     background-color: red;
 }
 #imagen{
-    display: flex;
+    display: grid;
     width: 50vh;
     height: 50vh;
     
@@ -31,7 +31,7 @@
 #blanco{
     flex: 1;
     background-color: #fff;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     height: 100%;
