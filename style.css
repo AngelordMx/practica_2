@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.grid-container{
+    display: grid;
+    background-color:white;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+    height: 100vh;
+}
+
+#verde {
+    grid: 12;
+    background-color: green;
+    
+    
+}
+#rojo{
+    background-color: red;
+}
+#imagen{
+    display: flex;
+    width: 50vh;
+    height: 50vh;
+    
+}
+
+#blanco{
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
